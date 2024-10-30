@@ -8,7 +8,7 @@ from huggingface_hub import hf_hub_download
 from npuengine import EngineOV
 import numpy as np
 # 
-net = EngineOV("./onnx/rmbg.bmodel", device_id=0)
+net = EngineOV("models/rmbg.bmodel", device_id=0)
 
 def process_image(im_path):
     

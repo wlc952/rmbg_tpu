@@ -1,0 +1,6 @@
+*venv
+*.zip
+*.tar.gz
+models
+result
+*__pycache__
